@@ -1,0 +1,122 @@
+body {
+    margin:0;
+    background-image: url("1822029.jpg");
+    /*background-repeat: repeat-x;*/
+}
+ 
+.wrapper {
+    width:980px; /*lebar layout*/
+    padding:5px; /* lebar layout dengan border layout lain*/
+    border:1px solid #999; /*garis layout*/
+    margin:5px auto; /*letak layout dari browser*/
+    font-family:Arial,Verdana,sans-serif; /*jenis font*/
+    font-size:14px; /*ukuran teks*/
+}
+.header {
+	position: relative;
+	font: 20px Arial, Helvetica, sans-serif;
+	width: 900px;
+	height: 170px;		
+	padding: 0 10px;
+	margin: 0 auto;
+	background: url(images/logo.png) no-repeat right center ;
+}
+ .table td{
+	 font: 3px;
+	 color:#FFF;
+ }
+.hmenu{
+	float: right;
+}
+
+.hmenu ul{
+	z-index:100;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.menu ul li a {
+	display: block;
+	width: 150px;
+	height: 35px;
+	line-height: 29px;
+	margin-left: 10px;
+	font-size: 15px;
+	color: #FFF;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+	border: #039;
+}
+.menu ul li{
+	position: relative;
+	display: inline;
+	float: left;
+}
+.menu {
+	position: center;
+    height:35px;
+    background:url(images/bg-pattern-green.png) repeat;
+	color:#FFF;
+	text-align:center;
+	float:inherit;
+	padding-top: 0.5px;
+	padding-bottom: 10px;
+}
+
+.navigasi {
+    float: right; 
+    width:200px;
+	height:500px;
+    background-color: #0F5;
+	color: white;
+    min-height:400px; 
+   padding-top: 15px; /*jarak dengan tepi atas*/
+   padding-left: 25px;/*jarak dengan tepi kiri*/
+}
+ 
+.kontent {
+    margin-left:;
+	background-image:url(images/bg-headline.png) ;
+	position:relative;
+   min-height:380px;
+   padding-top: 15px;
+   padding-left: 10px;
+}
+.civerbg {
+	background-image:url(images/bg-headline.png) ;
+	background-repeat:no-repeat;
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-size:100&;
+}
+.line1 {
+    float: right; 
+    width:1px;
+	height:450px;
+    background-color: #FF0000;
+    min-height:400px; 
+   padding-top: 15px; /*jarak dengan tepi atas*/
+   padding-left: 1px;/*jarak dengan tepi kiri*/
+}
+.line2 {
+    float: leftt; 
+    width:980px;
+	height:1px;
+    background-color: #FF0000;
+    min-height:1px; 
+   padding-top: 1px; /*jarak dengan tepi atas*/
+   padding-left: 1px;/*jarak dengan tepi kiri*/
+}
+
+.footer { 
+    clear:both;
+    height:30px;
+    background:url(images/bg-pattern-green.png) repeat center;
+    font-size:11px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 10px;
+}
